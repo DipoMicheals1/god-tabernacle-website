@@ -1,0 +1,29 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Path of Faith",
+      "author": "God's Tabernacle",
+      "file_url": "https://raw.githubusercontent.com/YOUR_USERNAME/god-tabernacle-website/main/books/path_of_faith.pdf",
+      "file_size_mb": 2.5,
+      "downloads": 1243
+    },
+    {
+      "id": 2,
+      "title": "Walking in Purpose",
+      "author": "The Messengers",
+      "file_url": "https://raw.githubusercontent.com/YOUR_USERNAME/god-tabernacle-website/main/books/walking_in_purpose.pdf",
+      "file_size_mb": 1.8,
+      "downloads": 892
+    }
+  ],
+  "sermons": [
+    {
+      "id": 1,
+      "title": "Sunday Sermon - Faith",
+      "speaker": "Pastor",
+      "audio_url": "https://raw.githubusercontent.com/YOUR_USERNAME/god-tabernacle-website/main/audio/sermon1.mp3",
+      "duration": "45:30"
+    }
+  ]
+}
