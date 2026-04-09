@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - God's Tabernacle</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Jitsi Meet (Free Video Calls) -->
+    <script src='https://meet.jit.si/external_api.js'></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>God's <span>Tabernacle</span></h1>
+                <p class="tagline">The Messengers</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="media.html">Media Library</a></li>
+                <li><a href="support.html" class="active">Support</a></li>
+                <li><a href="comments.html">Community</a></li>
+                <li><a href="give.html">Give</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="support-page">
+        <div class="container">
+            <h1>Customer Support</h1>
+            
+            <!-- Call Options -->
+            <div class="call-options">
+                <div class="call-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Video Call Support</h3>
+                    <p>Face-to-face assistance with our team</p>
+                    <button id="startVideoCall" class="btn-primary">Start Video Call</button>
+                </div>
+                <div class="call-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3>Audio Call</h3>
+                    <p>Voice-only support</p>
+                    <button id="startAudioCall" class="btn-primary">Start Audio Call</button>
+                </div>
+            </div>
+
+            <!-- Missed Calls Section (Stored in localStorage) -->
+            <div class="missed-calls">
+                <h2>Missed Calls</h2>
+                <div id="missedCallsList">
+                    <p>No missed calls recorded</p>
+                </div>
+                <button id="clearMissedCalls" class="btn-secondary">Clear All</button>
+            </div>
+
+            <!-- Alternative Contact -->
+            <div class="alternative-contact">
+                <h2>Other Support Channels</h2>
+                <div class="contact-channels">
+                    <a href="https://wa.me/1234567890" class="channel whatsapp">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Business
+                    </a>
+                    <a href="tel:+1234567890" class="channel phone">
+                        <i class="fas fa-phone"></i> Telephone: +1 (234) 567-890
+                    </a>
+                    <a href="mailto:support@godstabernacle.org" class="channel email">
+                        <i class="fas fa-envelope"></i> support@godstabernacle.org
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 God's Tabernacle - The Messengers. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
